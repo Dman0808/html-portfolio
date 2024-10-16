@@ -17,7 +17,8 @@
 		}
 	],
 	"settings": {
-		"vscode-edge-devtools.browserFlavor": "Stable"
+		"vscode-edge-devtools.browserFlavor": "Stable",
+		"liveServer.settings.multiRootWorkspaceName": "html-portfolio"
 	},
 	"launch": {
 		"configurations": [
