@@ -3,6 +3,18 @@
     "configurations": 
         [
             {
+                "args": [
+                    "--extensionDevelopmentPath=${workspaceFolder}"
+                ],
+                "name": "Launch Extension",
+                "outFiles": [
+                    "${workspaceFolder}/out/**/*.js"
+                ],
+                "preLaunchTask": "npm",
+                "request": "launch",
+                "type": "extensionHost"
+            },
+            {
                 "type": "vscode-edge-devtools.debug",
                 "request": "attach",
                 "name": "Attach to Microsoft Edge and open the Edge DevTools",
